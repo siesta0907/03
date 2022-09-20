@@ -7,11 +7,14 @@
 
 int main(void){
 	
-	char c;
-	int i;
-	printf("input a character : ");
-	scanf("%c", &c);
-	i = c;
-	printf("The next character of %c (%d) is  %c (%d)%\n", c,i,c+1,i+1);
+	int a,b;
+	float result;
+	
+	printf("분자를 입력하세요 : ");
+	scanf("%d", &a);
+	printf("분모를 입력하세요: "); 
+	scanf("%d", &b);
+	result = (float)a/b;
+	printf("나누기의 결과는 %f", result);
 	return 0;
 }
