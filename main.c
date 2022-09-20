@@ -1,7 +1,7 @@
-// 2022/09/20
-// IT공학전공 1916513 박희수 
+// 2022-09-20
+// 1916513 
 // main.c
-// chapter 03 실습 2
+// chapter 03-3
 
 #include <stdio.h>
 
@@ -9,9 +9,9 @@ int main(void){
 	
 	char c;
 	int i;
-	printf("input a number :");
+	printf("input a character : ");
 	scanf("%c", &c);
-	i = c - '0';
-	printf("The input number is %i\n", i);
+	i = c;
+	printf("The next character of %c (%d) is  %c (%d)%\n", c,i,c+1,i+1);
 	return 0;
 }
